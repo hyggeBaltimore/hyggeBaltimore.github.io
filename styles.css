@@ -131,3 +131,29 @@ a:hover{
 #ingredientLink{
     text-align: center;
 }
+
+@media only screen and (max-width: 1080px) {
+
+    #content{
+        width:95vw;
+        display: grid;
+        grid-template-columns: 1;
+    }
+
+    #content div{
+        grid-column: 1 / 3;
+    }
+
+}
+@media only screen and (max-width: 1080px) {
+
+    header{
+        height:60vh;
+        margin: auto;
+    }
+
+    #content{
+        width:98vw;
+    }
+
+}
