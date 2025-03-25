@@ -134,6 +134,11 @@ a:hover{
 
 @media only screen and (max-width: 1080px) {
 
+    header{
+        height:60vh;
+        margin: auto;
+    }
+
     #content{
         width:95vw;
         display: grid;
@@ -145,15 +150,14 @@ a:hover{
     }
 
 }
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 600px) {
 
-    header{
-        height:60vh;
-        margin: auto;
+    #content div p{
+        font-size: 1.5rem;
     }
 
-    #content{
-        width:98vw;
+    #content div ul li{
+        font-size: 1.5rem;
     }
 
 }
